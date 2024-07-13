@@ -1,0 +1,58 @@
+.footer{
+    color: #fff;
+    background-color: #8a2be2;
+    padding: 30px 0;
+}
+.footer__list{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.footer__link{
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 35px;
+    padding-top:15px;
+    color: #fff;
+    transition:all 0.3s;
+    margin-right: 10px;
+}
+.footer__title{
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer__logo{
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+    font-size: 30px;    
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.footer__icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 15px;
+    &:hover{
+        transform: scale(1.2);
+        transition: .3s;
+    }
+}
+.footer__under-text{
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 35px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.footer__underline{
+    width: 100%;
+}

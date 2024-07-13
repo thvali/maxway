@@ -1,0 +1,38 @@
+.branch{
+    background-color: #f6f6f6;
+    margin-top: 100px;
+}
+.branch__wrapper{
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    cursor: pointer;
+    background-color: #fff;
+    margin: 30px 0;
+    padding: 15px 40px
+}
+.branch__list{
+    display: flex;
+    align-items: center;
+}
+.branch__item{
+    width: 50%;
+}
+.branch__title{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.branch__subtext{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    line-height: 30px;
+}
+.branch__text{
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    line-height: 30px;
+}

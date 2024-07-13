@@ -1,0 +1,33 @@
+.about{
+    padding-top:180px;
+    padding-bottom: 80px;
+    background-color: #f6f6f6;
+}
+.about__container{
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 30px;
+}
+.about__title{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 40px 0;
+}
+.about__text{
+    font-family: sans-serif;
+    color: #7b7474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-right: 55px;
+    text-align: left;
+}
+.about__img{
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+}
