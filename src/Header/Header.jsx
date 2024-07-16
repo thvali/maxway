@@ -11,10 +11,10 @@ const Header = () => {
                 <a className='header__burger'  href=""><img className='header__burger' src={burger} alt="" /></a>
                 <a className='header__logo' href="">SFood</a>
                 <ul className='header__left-item'>
-                    <NavLink className="header__link" to="/home" active = "true">Home</NavLink>
-                    <NavLink className="header__link" to="/branch" active = "true">Filials</NavLink>
-                    <NavLink className="header__link" to="/about" active = "true">About us</NavLink>
-                    <NavLink className="header__link" to="/contact" active = "true">Contacts</NavLink>
+                    <NavLink className="header__link" to="/">Home</NavLink>
+                    <NavLink className="header__link" to="/branch">Filials</NavLink>
+                    <NavLink className="header__link" to="/about">About us</NavLink>
+                    <NavLink className="header__link" to="/contact">Contacts</NavLink>
                 </ul>
                 <ul className='header__right-item'>
                     <li><img className='header__icon' src={icon} alt="" /></li>

@@ -4,6 +4,7 @@
     left: 0;
     top: 0;
     background-color: #FFFFFF;
+    z-index: 1000;
 }
 .header__list{
     display: flex;
@@ -40,11 +41,6 @@
     margin-right: 10px;
 }
 .header__link:hover{
-    background-color: #8a2be2;
-    color: #fff;
-    transform: scale(.9);
-}
-.active{
     background-color: #8a2be2;
     color: #fff;
     transform: scale(.9);

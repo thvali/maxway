@@ -1,0 +1,20 @@
+.menu{
+
+background-color: #8a2be2;
+}
+.menu__link{
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 35px;
+    padding: 10px 15px;
+    color: white;
+    transition:all 0.3s;
+    margin-right: 2px;
+    &:hover{
+        background-color: white;
+        color: #8a2be2;
+        transform: scale(.9);
+        transition: .3s;
+    }
+}
