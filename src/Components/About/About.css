@@ -31,3 +31,21 @@
     height: 100%;
     width: 100%;
 }
+@media(max-width:600px){
+    .about__text{
+        text-align: center;
+        padding-left: 30px;
+    }
+    .about__title{
+        text-align: center;
+    }
+    .about__container{
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .about__img{
+        height: 200px;
+    }
+}

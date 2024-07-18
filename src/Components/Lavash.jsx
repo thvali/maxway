@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card/Card'
-import "./Lavash.css"
+import "./cardstyle.css"
 import rasm1 from "../assets/rasm1.jpg"
 import rasm2 from "../assets/rasm2.png"
 import rasm3 from "../assets/rasm3.png"
@@ -9,7 +9,6 @@ import rasm5 from "../assets/rasm5.png"
 import rasm6 from "../assets/rasm6.png"
 import rasm7 from "../assets/rasm7.png"
 import rasm8 from "../assets/rasm8.png"
-import rasm9 from "../assets/rasm9.png"
 export default function Lavash() {
   const a = {
     img : rasm1,
@@ -59,27 +58,18 @@ export default function Lavash() {
     text : "Information: classic lavash with meat, potato-free, pepper",
     price : 0.29
   }
-  const i = {
-    img : rasm9,
-    title : "Salted pasta with mushroom sauce",
-    text : "Information: classic lavash with meat, potato-free, pepper",
-    price : 5.29
-  }
   return (
-    <div className='lavash' >
-      <div className='container lavash__container'>
-        <ul className='lavash__list'>
-          <Card data={a}/>
-          <Card data={b}/>
-          <Card data={c}/>
-          <Card data={d}/>
-          <Card data={e}/>
-          <Card data={f}/>
-          <Card data={g}/>
-          <Card data={h}/>
-          <Card data={i}/>
-        </ul>
-      </div>
+    <div className='container'>
+      <ul className='cardstyle__list'>
+        <Card data={a}/>
+        <Card data={b}/>
+        <Card data={c}/>
+        <Card data={d}/>
+        <Card data={e}/>
+        <Card data={f}/>
+        <Card data={g}/>
+        <Card data={h}/>
+      </ul>
     </div>
   )
 }

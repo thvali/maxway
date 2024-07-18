@@ -25,7 +25,7 @@ export default function Contact() {
           <h3 className='contact__title'>Customer support department</h3>
           <ul className='contact__list'>
             <li><p className='contact__text'>Email</p></li>
-            <li><a className='contact__link' href="">ahmadali.haydaraliyev2005@gmail.com</a></li>
+            <li><a className='contact__link' href="">abc@gmail.com</a></li>
           </ul>
           <ul className='contact__list'>
             <li><p className='contact__text'>Contact number</p></li>
@@ -37,7 +37,7 @@ export default function Contact() {
           <p className='contact__text'>For questions arising in connection with the alleged misuse of trademarks, logos and other materials, please contact us by e-mail with supporting documents attached.</p>
           <ul className='contact__list'>
             <li><p className='contact__text'>Email</p></li>
-            <li><a className='contact__link' href="">ahmadali.haydaraliyev2005@gmail.com</a></li>
+            <li><a className='contact__link' href="">abc@gmail.com</a></li>
           </ul>
         </div>
       </div>

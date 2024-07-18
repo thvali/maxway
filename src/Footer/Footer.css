@@ -56,3 +56,17 @@
 .footer__underline{
     width: 100%;
 }
+@media(max-width:600px){
+    .footer__container{
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .footer__list{
+        display: block;
+        justify-content: space-around;
+    }
+    .footer__item{
+        margin-bottom: 50px;
+    }
+}

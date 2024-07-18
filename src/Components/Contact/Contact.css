@@ -32,3 +32,15 @@
     font-family: sans-serif;
     color: blue;
 }
+@media(max-width:470px){
+    .contact__list{
+        display: block;
+        text-align: center;
+    }
+    .contact__title{
+        text-align: center;
+    }
+    .contact__text{
+        text-align: center;
+    }
+}

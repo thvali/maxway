@@ -3,17 +3,23 @@ import youtube from '../assets/youtube.svg'
 import instagram from '../assets/instagram.svg'
 import telegram from '../assets/telegram.svg'
 import "./Footer.css"
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+    const {t, i18n} =useTranslation();
+
+    const handlelanguage = (lang) => {
+      i18n.changeLanguage(lang)
+    }
   return (
     <div className='footer'>
         <div className='container footer__container'>
             <ul className='footer__list'>
                 <li className='footer__item'>
                     <a className='footer__logo' href="">SFood</a> <br />
-                    <a className='footer__link' href="">Home</a><br />
-                    <a className='footer__link' href="">Filials</a><br />
-                    <a className='footer__link' href="">About us</a><br />
-                    <a className='footer__link' href="">Contacts</a>
+                    <a className='footer__link' href="/">{t('header.link1')}</a><br />
+                    <a className='footer__link' href="/branch">{t('header.link2')}</a><br />
+                    <a className='footer__link' href="/about">{t('header.link3')}</a><br />
+                    <a className='footer__link' href="/contact">{t('header.link4')}</a>
                 </li>
                 <li className='footer__item'>
                     <p className='footer__title'>Join us</p>
