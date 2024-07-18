@@ -5,11 +5,7 @@ import telegram from '../assets/telegram.svg'
 import "./Footer.css"
 import { useTranslation } from "react-i18next";
 const Footer = () => {
-    const {t, i18n} =useTranslation();
-
-    const handlelanguage = (lang) => {
-      i18n.changeLanguage(lang)
-    }
+    const {t} =useTranslation();
   return (
     <div className='footer'>
         <div className='container footer__container'>
